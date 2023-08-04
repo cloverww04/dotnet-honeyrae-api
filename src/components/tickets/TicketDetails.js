@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Table } from "reactstrap";
-import { getServiceTicket, getSingleServiceTicket } from "../../data/serviceTicketsData";
+import { getSingleServiceTicket } from "../../data/serviceTicketsData";
 
 export default function TicketDetails() {
   const { id } = useParams();
