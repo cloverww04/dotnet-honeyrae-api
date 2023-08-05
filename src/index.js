@@ -28,7 +28,7 @@ root.render(
           {/* Employee Routes */}
           <Route path="employee" element={<EmployeeList />} />
           <Route path="employee/:id" element={<EmployeeDetails />} />
-          {/* Employee Routes */}
+          {/* Customer Routes */}
           <Route path="customer" element={<CustomerList />} />
           <Route path="customer/:id" element={<CustomerDetails />} />
         </Route>
