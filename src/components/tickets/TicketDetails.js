@@ -8,7 +8,6 @@ export default function TicketDetails() {
 
   const [ticket, setTicket] = useState(null);
 
-  //add useEffect here to get the ticket details from the API
   useEffect(() => {
     getSingleServiceTicket(id).then(setTicket);
   }, []);
